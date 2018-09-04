@@ -1,0 +1,59 @@
+package com.np.spark.data;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import java.io.Serializable;
+
+@XmlRootElement(name="CorrelationRequest")
+@XmlAccessorType(XmlAccessType.NONE)
+public class SummaryRequest implements Serializable, SparkRequest {
+    @XmlElement
+    private String name;
+
+    @XmlElement
+    private String query;
+
+    @XmlElement
+    private String user;
+
+
+    public SummaryRequest() {
+
+    }
+
+    public SummaryRequest(String name, String query, String user) {
+        this.name = name;
+        this.query = query;
+        this.user = user;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String getQuery() {
+        return query;
+    }
+
+    public void setQuery(String query) {
+        this.query = query;
+    }
+
+    @Override
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+}
