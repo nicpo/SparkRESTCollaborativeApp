@@ -11,3 +11,7 @@ Exposes REST interface to Spark's machine learning functions. Please see [./docs
 The app provides collaborative, "Google Docs for Spark" functionality:
 * Share models, results of analysis and underlying datasets between several users
 * Leave comments within models and analysis results
+
+## UI
+
+To access the app through a nifty user interface, check out the SparkRESTCollaborativeUI repo.
