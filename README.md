@@ -4,7 +4,7 @@ Note: this app currently works with Spark version 1.5.0 (yep, that's so 2016). I
 
 ## REST client for Apache Spark
 
-Exposes REST interface to Spark's machine learning functions. Please see [./RestAPI/index.html](RestAPI/index.html) for documentation on calls and supported algorithms.
+Exposes REST interface to Spark's machine learning functions. Please see [./docs/RestAPI/index.html](docs/RestAPI/index.html) for documentation on calls and supported algorithms.
 
 ## Collaborative features for Spark
 
